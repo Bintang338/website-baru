@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bintang Web</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4; /* Warna latar belakang sedikit berbeda */
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        h1, h2, h3 { /* Gaya umum untuk heading */
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        h1 {
+            font-size: 2em;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            border-bottom: 2px solid #333; /* Garis bawah pada heading bagian */
+            padding-bottom: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        h3 {
+          font-size: 1.2em;
+        }
+
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        section {
+            padding: 2rem;
+        }
+
+        .proyek-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .proyek {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            width: 45%;
+            margin-bottom: 1rem;
+            box-sizing: border-box;
+            background-color: #fff; /* Latar belakang proyek putih */
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* Efek bayangan */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem; /* Jarak antara section dan footer */
+        }
+
+        @media (max-width: 768px) {
+          .proyek {
+            width: 100%;
+          }
+        }
+
+   /* ... (CSS yang sebelumnya) */
+        #foto-profil {
+            width: 150px; /* Lebar foto */
+            height: 150px; /* Tinggi foto */
+            border-radius: 50%; /* Membuat foto menjadi lingkaran */
+            object-fit: cover; /* Memastikan foto mengisi area dengan proporsi yang benar */
+            margin: 20px auto; /* Membuat foto berada di tengah */
+            display: block;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+        }
+        header {
+            text-align: center; /* Memusatkan teks di header */
+        } </style>
+        
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+      <img id="foto-profil" src="pppp.jpg" alt="Foto Profil Saya">
+      <h1>Sri Bintang Lesmana</h1>
+      <nav>
+            <a href="#tentang">Tentang Saya</a>
+            <a href="#proyek">Proyek</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
+    </header>
+
+    <section id="tentang">
+        <h2>Tentang Saya</h2>
+        <h3>Latar Belakang</h3>
+        <p>Nama Saya Sri Bintang Lesmana Saya Lahir Di Cianjur Tahun 2008 Bulan Maret Tangggal 3 Dan Saya Laki Laki.Saya Membuat Ini Tanggal 22 Bulan Januari 2025. Saya Sekolah/Belajar Di SMKN 1 PAGELARAN Dan Mengambil Jurusan TJKT.Saya Sedang Belajar HTML CSS Dan JAVASCRIPT Insyaallah Saya Ingin Bisa Dan Menjadi Seorang Web Develover Dan Ahli Dalam Programing.</p>
+        <h3>Keahlian</h3>
+        <p>Keahlian Saya Sekarang Bisa Mengerti Dengan HTML Dan CSS Dan JAVASCRIPT Belum Bisa.</p>
+    </section>
+
+    <section id="proyek">
+        <h2>Proyek</h2>
+        <div class="proyek-container">
+            <div class="proyek">
+                <h3>Link Website</h3>
+                <p>Link Website Pertama Kali Saya belajar HTML CSS Dan JAVASCRPIT.Maaf Jelek !!! Yang Ini Juga Jelek !!! Maklum </p>
+                <a href="https://sbintang.netlify.app/" target="_blank" title="Example Website" rel="noopener noreferrer" class="link-extern" id="link-example">Website Pertama Saya</a>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak">
+        <h2>Kontak</h2>
+        <a href="https://web.facebook.com/sbintang.lesmana?locale=id_ID" target="_blank" title="Example Website" rel="noopener noreferrer" class="link-extern" id="link-example">Facebook</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 SBL</p>
+    </footer>
+
+    <script>
+        // Kode JavaScript bisa ditambahkan di sini jika dibutuhkan
+    </script>
+</body>
+</html>
